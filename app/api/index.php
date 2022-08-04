@@ -1,5 +1,4 @@
 <?php
 
-$response = ['PHP is loaded'];
-
-echo(json_encode($response));
+$response = ["Editor API"];
+return json_encode($response);
